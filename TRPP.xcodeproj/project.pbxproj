@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C468ECFC29D0C758009144CB /* ProgressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C468ECF129D0C758009144CB /* ProgressViewController.xib */; };
+		C468ECFD29D0C758009144CB /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C468ECF229D0C758009144CB /* ProgressViewController.swift */; };
+		C468ECFE29D0C758009144CB /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C468ECF429D0C758009144CB /* StartViewController.xib */; };
+		C468ECFF29D0C758009144CB /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C468ECF529D0C758009144CB /* StartViewController.swift */; };
+		C468ED0029D0C758009144CB /* LoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C468ECF729D0C758009144CB /* LoseViewController.swift */; };
+		C468ED0129D0C758009144CB /* LoseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C468ECF829D0C758009144CB /* LoseViewController.xib */; };
+		C468ED0229D0C758009144CB /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C468ECFA29D0C758009144CB /* QuizViewController.xib */; };
+		C468ED0329D0C758009144CB /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C468ECFB29D0C758009144CB /* QuizViewController.swift */; };
 		C4B8BD0A29D0BB070095A8ED /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B8BD0929D0BB070095A8ED /* Colors.swift */; };
 		C4B8BD0D29D0BB970095A8ED /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B8BD0C29D0BB970095A8ED /* Question.swift */; };
 		C4B8BD0F29D0BBB30095A8ED /* MillionareBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B8BD0E29D0BBB30095A8ED /* MillionareBrain.swift */; };
@@ -19,6 +27,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C468ECF129D0C758009144CB /* ProgressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressViewController.xib; sourceTree = "<group>"; };
+		C468ECF229D0C758009144CB /* ProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		C468ECF429D0C758009144CB /* StartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		C468ECF529D0C758009144CB /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		C468ECF729D0C758009144CB /* LoseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoseViewController.swift; sourceTree = "<group>"; };
+		C468ECF829D0C758009144CB /* LoseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoseViewController.xib; sourceTree = "<group>"; };
+		C468ECFA29D0C758009144CB /* QuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizViewController.xib; sourceTree = "<group>"; };
+		C468ECFB29D0C758009144CB /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		C4B8BD0929D0BB070095A8ED /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		C4B8BD0C29D0BB970095A8ED /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		C4B8BD0E29D0BBB30095A8ED /* MillionareBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionareBrain.swift; sourceTree = "<group>"; };
@@ -43,6 +59,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C468ECEF29D0C758009144CB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C468ECF029D0C758009144CB /* Rewards */,
+				C468ECF329D0C758009144CB /* Start */,
+				C468ECF629D0C758009144CB /* Lose */,
+				C468ECF929D0C758009144CB /* Questions */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C468ECF029D0C758009144CB /* Rewards */ = {
+			isa = PBXGroup;
+			children = (
+				C468ECF129D0C758009144CB /* ProgressViewController.xib */,
+				C468ECF229D0C758009144CB /* ProgressViewController.swift */,
+			);
+			path = Rewards;
+			sourceTree = "<group>";
+		};
+		C468ECF329D0C758009144CB /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				C468ECF429D0C758009144CB /* StartViewController.xib */,
+				C468ECF529D0C758009144CB /* StartViewController.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		C468ECF629D0C758009144CB /* Lose */ = {
+			isa = PBXGroup;
+			children = (
+				C468ECF729D0C758009144CB /* LoseViewController.swift */,
+				C468ECF829D0C758009144CB /* LoseViewController.xib */,
+			);
+			path = Lose;
+			sourceTree = "<group>";
+		};
+		C468ECF929D0C758009144CB /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				C468ECFA29D0C758009144CB /* QuizViewController.xib */,
+				C468ECFB29D0C758009144CB /* QuizViewController.swift */,
+			);
+			path = Questions;
+			sourceTree = "<group>";
+		};
 		C4B8BD0B29D0BB2C0095A8ED /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +139,7 @@
 				C4EDF22829D0B5CA00F95B90 /* SceneDelegate.swift */,
 				C4EDF22A29D0B5CA00F95B90 /* ViewController.swift */,
 				C4EDF22C29D0B5CA00F95B90 /* Main.storyboard */,
+				C468ECEF29D0C758009144CB /* Controllers */,
 				C4B8BD0B29D0BB2C0095A8ED /* Model */,
 				C4EDF22F29D0B5CB00F95B90 /* Assets.xcassets */,
 				C4EDF23129D0B5CB00F95B90 /* LaunchScreen.storyboard */,
@@ -143,8 +207,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4EDF23329D0B5CB00F95B90 /* LaunchScreen.storyboard in Resources */,
+				C468ED0129D0C758009144CB /* LoseViewController.xib in Resources */,
 				C4EDF23029D0B5CB00F95B90 /* Assets.xcassets in Resources */,
 				C4EDF22E29D0B5CA00F95B90 /* Main.storyboard in Resources */,
+				C468ED0229D0C758009144CB /* QuizViewController.xib in Resources */,
+				C468ECFC29D0C758009144CB /* ProgressViewController.xib in Resources */,
+				C468ECFE29D0C758009144CB /* StartViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,8 +224,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4B8BD0D29D0BB970095A8ED /* Question.swift in Sources */,
+				C468ED0329D0C758009144CB /* QuizViewController.swift in Sources */,
+				C468ECFF29D0C758009144CB /* StartViewController.swift in Sources */,
+				C468ED0029D0C758009144CB /* LoseViewController.swift in Sources */,
 				C4EDF22B29D0B5CA00F95B90 /* ViewController.swift in Sources */,
 				C4B8BD0A29D0BB070095A8ED /* Colors.swift in Sources */,
+				C468ECFD29D0C758009144CB /* ProgressViewController.swift in Sources */,
 				C4EDF22729D0B5CA00F95B90 /* AppDelegate.swift in Sources */,
 				C4B8BD0F29D0BBB30095A8ED /* MillionareBrain.swift in Sources */,
 				C4EDF22929D0B5CA00F95B90 /* SceneDelegate.swift in Sources */,
